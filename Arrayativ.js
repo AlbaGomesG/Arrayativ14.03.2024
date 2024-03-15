@@ -9,3 +9,7 @@ console.log(numbers) //[2, 3, 4];
 let número = [1, 2, 3, 4];
 número.pop(4); // Vai removero último elemento do Array
 console.log(número) //[1, 2, 3];
+
+let cores = ["Roxo", "Vermelho", "Branco"];
+cores.unshift("Preto", "Azul"); // Vai adicionar as cores Preto e Azul ao ínicio do Array
+console.log(cores) //["Preto", " Azul", "Roxo", "Vermelho", "Branco"];
