@@ -13,3 +13,8 @@ console.log(número) //[1, 2, 3];
 let cores = ["Roxo", "Vermelho", "Branco"];
 cores.unshift("Preto", "Azul"); // Vai adicionar as cores Preto e Azul ao ínicio do Array
 console.log(cores) //["Preto", " Azul", "Roxo", "Vermelho", "Branco"];
+
+let objeto = ["Cadeira", "Mesa"];
+let novoObjeto = objeto.concat(["Porta", "Caneta"]); // Vai juntar os objetos (Porta) e (Caneta)
+console.log(objeto) //["Cadeira", "Mesa"];
+console.log(novoObjeto) //["Cadeira", "Mesa", "Porta", "Caneta"];
