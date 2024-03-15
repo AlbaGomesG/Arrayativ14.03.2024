@@ -18,3 +18,7 @@ let objeto = ["Cadeira", "Mesa"];
 let novoObjeto = objeto.concat(["Porta", "Caneta"]); // Vai juntar os objetos (Porta) e (Caneta)
 console.log(objeto) //["Cadeira", "Mesa"];
 console.log(novoObjeto) //["Cadeira", "Mesa", "Porta", "Caneta"];
+
+let maquiagens = ["Rímel", "Base", "Sombra"];
+let resultado = maquiagens.join("-"); // Vai unir os elementos do Array em uma única string
+console.log(resultado); //[Rímel-Base-Sombra];
