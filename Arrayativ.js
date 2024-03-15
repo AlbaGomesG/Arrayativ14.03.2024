@@ -22,3 +22,6 @@ console.log(novoObjeto) //["Cadeira", "Mesa", "Porta", "Caneta"];
 let maquiagens = ["Rímel", "Base", "Sombra"];
 let resultado = maquiagens.join("-"); // Vai unir os elementos do Array em uma única string
 console.log(resultado); //[Rímel-Base-Sombra];
+
+let frutas = ["Morango", "Laranja", "Uva"];
+console.log(frutas.includes("Laranja")); //Vai verificar a fruta que você quer descobrir se está presente nesse string
