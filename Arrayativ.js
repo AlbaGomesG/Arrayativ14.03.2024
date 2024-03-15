@@ -25,3 +25,6 @@ console.log(resultado); //[Rímel-Base-Sombra];
 
 let frutas = ["Morango", "Laranja", "Uva"];
 console.log(frutas.includes("Laranja")); //Vai verificar a fruta que você quer descobrir se está presente nesse string
+
+let acessórios = ["Colar", "Pulseira", "Anel"];
+console.log(acessórios.indexOf("Anel")); //Vai verificar o primeiro índice em que o elemento pode ser encontrado no array
