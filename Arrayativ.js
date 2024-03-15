@@ -37,3 +37,8 @@ console.log(esportes); //["Volêi", "Basquete", "Baseball", "Judô", "Atletismo"
 let names = ["Eduardo", "Thiago", "Felipe", "Giovanna"];
 names.reverse(); //Vai Inverter o Array
 console.log(names); //["Giovanna", "Felipe", "Thiago", "Eduardo"];
+
+let sapatos = ["Salto", "Bota", "Tênis", "Chinelo", "Pantufas"];
+let novoSapato = sapatos.slice(3); //Vai retornar uma cópia do Array e começar a partir do elemento determinado
+console.log(sapatos) //["Salto", "Bota", "Tênis", "Chinelo", "Pantufas"];
+console.log(novoSapato) //["Chinelo", "Pantufas"];
