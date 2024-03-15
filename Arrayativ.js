@@ -31,4 +31,9 @@ console.log(acessórios.indexOf("Anel")); //Vai verificar o primeiro índice em 
 
 let esportes = ["Volêi", "Basquete", "Futebol", "Atletismo"];
 esportes.splice(2, 1, "Baseball", "Judô"); //Vai retirar e substituir o elemento 2 (futebol) pelos outros esportes (Baseball), (Judô)
-console.log(esportes);
+console.log(esportes); //["Volêi", "Basquete", "Baseball", "Judô", "Atletismo"];
+
+
+let names = ["Eduardo", "Thiago", "Felipe", "Giovanna"];
+names.reverse(); //Vai Inverter o Array
+console.log(names); //["Giovanna", "Felipe", "Thiago", "Eduardo"];
