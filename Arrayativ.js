@@ -28,3 +28,7 @@ console.log(frutas.includes("Laranja")); //Vai verificar a fruta que você quer 
 
 let acessórios = ["Colar", "Pulseira", "Anel"];
 console.log(acessórios.indexOf("Anel")); //Vai verificar o primeiro índice em que o elemento pode ser encontrado no array
+
+let esportes = ["Volêi", "Basquete", "Futebol", "Atletismo"];
+esportes.splice(2, 1, "Baseball", "Judô"); //Vai retirar e substituir o elemento 2 (futebol) pelos outros esportes (Baseball), (Judô)
+console.log(esportes);
